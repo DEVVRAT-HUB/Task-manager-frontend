@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced To-Do List</title>
+    <!-- Tailwind CSS CDN for utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts: Inter for general text -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="to-do-app">
+            <h1>My To-Do List</h1>
+
+            <div class="input-area">
+                <!-- Group for task input and priority dropdown -->
+                <div class="input-row-top">
+                    <input type="text" id="task-input" placeholder="Add your new task">
+                    <div class="custom-select" id="task-priority-custom">
+                        <div class="select-selected" data-value="medium">Medium Priority</div>
+                        <div class="select-items">
+                            <div data-value="low">Low Priority</div>
+                            <div data-value="medium">Medium Priority</div>
+                            <div data-value="high">High Priority</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Separate row for date input -->
+                <div class="input-row-bottom">
+                    <input type="date" id="task-due-date">
+                </div>
+                <button id="add-task-button">Add</button>
+            </div>
+
+            <div class="todus-container">
+                <!-- Empty state message with SVG -->
+                <div class="empty-state-message" id="empty-state-message">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M15 2H9a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"></path></svg>
+                    <p>No tasks yet! Add your first task above.</p>
+                </div>
+                <ul class="task-list" id="task-list">
+                    <!-- Tasks will be added here dynamically -->
+                </ul>
+            </div>
+
+            <div class="stat-container">
+                <div class="details">
+                    <h3>Progress</h3>
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+                <div class="numbers" id="numbers">0/0</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
