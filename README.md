@@ -4,7 +4,10 @@ MY TASK MANAGER FRONTEND
 
 
 
-It's a simple but stylish task list-web application designed to help you keep your tasks effectively. It has a modern, clean interface with a touch of glass morphism and even animation.
+My To-Do List Application
+(Placeholder image - Replace with an actual screenshot of your To-Do List app!)
+
+This is a simple but stylish task list-web application designed to help you keep your tasks effectively. It has a modern, clean interface with a touch of glass morphism and even animation.
 
 ✨ Features
 Add tasks: Rapidly add new tasks with a description.
@@ -45,5 +48,5 @@ Save them: Place all three files in the same folder on your computer.
 
 Open Index.html: Just double -click index.html to open it in the browser.
 
-🌐 live demo
+🌐 Live Demo
 You can see a live version of this project, https://devvrat-hub.github.io/Task-manager-frontend/
