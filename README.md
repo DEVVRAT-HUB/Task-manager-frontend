@@ -1,11 +1,11 @@
-# My To-Do List Application
+# TASK MANAGER FRONTEND
 
-*(Placeholder image - Replace with an actual screenshot of your To-Do List app!)*
+![image](https://github.com/user-attachments/assets/bab1710f-5885-4b10-9a20-56269b89056d)
+
 
 This is a simple but stylish task list-web application designed to help you keep your tasks effectively. It has a modern, clean interface with a touch of glass morphism and even animation.
 
-## ![image](https://github.com/user-attachments/assets/01522688-ce1c-4f77-8f37-d7bc6d39003c)
- Features
+## Features
 
 * Add tasks: Rapidly add new tasks with a description.
 * Priority levels: Provide low, medium or high priority for your features.
@@ -34,4 +34,4 @@ This is a simple but stylish task list-web application designed to help you keep
 
 ## 🌐 Live Demo
 
-You can see a live version of this project, [https://devvrat-hub.github.io/Task-manager-frontend/](https://devvrat-hub.github.io/Task-manager-frontend/)
+You can see a live version of this project (https://devvrat-hub.github.io/Task-manager-frontend/)
